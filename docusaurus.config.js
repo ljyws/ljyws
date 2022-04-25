@@ -8,7 +8,7 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'XXX\'s Wiki',
+    title: 'lijiayang\'s homepage',
     tagline: '^_^',
     url: 'https://XXXXX.top',
     baseUrl: '/',
