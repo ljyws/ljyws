@@ -10,13 +10,13 @@ const katex = require('rehype-katex');
 const config = {
     title: 'lijiayang\'s homepage',
     tagline: '^_^',
-    url: 'https://XXXXX.top',
+    url: 'https://xyljy.top',
     baseUrl: '/',
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/earth.svg',
-    organizationName: 'XXXX', // Usually your GitHub org/user name.
-    projectName: 'XXXX', // Usually your repo name.
+    organizationName: 'ljyws', // Usually your GitHub org/user name.
+    projectName: 'ljy', // Usually your repo name.
 
     themes: [
         // ... Your other themes.
@@ -79,7 +79,7 @@ const config = {
             hideableSidebar: false,
 
             navbar: {
-                title: 'XXXXX',
+                title: 'HOME',
                 hideOnScroll: true,
                 logo: {
                     alt: "explore",
@@ -92,7 +92,7 @@ const config = {
                     position: "right",
                 },
                 {
-                    href: "https://github.com/yltzdhbc",
+                    href: "https://github.com/ljyws",
                     label: "GITHUB",
                     position: "right",
                 },
