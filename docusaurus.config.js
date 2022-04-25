@@ -8,15 +8,15 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'li jiayang',
-    tagline: 'welcome to my homepage',
-    url: 'https://github.com/ljyws',
+    title: 'XXX\'s Wiki',
+    tagline: '^_^',
+    url: 'https://XXXXX.top',
     baseUrl: '/',
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/earth.svg',
-    organizationName: 'ljyws', // Usually your GitHub org/user name.
-    projectName: 'ljy', // Usually your repo name.
+    organizationName: 'XXXX', // Usually your GitHub org/user name.
+    projectName: 'XXXX', // Usually your repo name.
 
     themes: [
         // ... Your other themes.
@@ -44,7 +44,7 @@ const config = {
             ({
 
                 gtag: {
-                    trackingID: 'home',
+                    trackingID: 'G-XXXXXXXX',
                     anonymizeIP: false, 
                 },
 
@@ -79,9 +79,12 @@ const config = {
             hideableSidebar: false,
 
             navbar: {
-                title: 'home',
+                title: 'XXXXX',
                 hideOnScroll: true,
-
+                logo: {
+                    alt: "explore",
+                    src: "img/explore.svg",
+                },
 
                 items: [{
                     href: "https://space.bilibili.com/35171315",
@@ -89,7 +92,7 @@ const config = {
                     position: "right",
                 },
                 {
-                    href: "https://github.com/ljyws",
+                    href: "https://github.com/yltzdhbc",
                     label: "GITHUB",
                     position: "right",
                 },
