@@ -87,7 +87,7 @@ const config = {
                 },
 
                 items: [{
-                    href: "https://space.bilibili.com/35171315",
+                    href: "https://space.bilibili.com/348841790?spm_id_from=333.1007.0.0",
                     label: "B站主页",
                     position: "right",
                 },
@@ -103,7 +103,12 @@ const config = {
                 style: 'light',
                 links: [{
                     title: '友人帐',
-                    items: [{
+                    items: [
+                        {
+                            href: 'https://www.yltzdhbc.top/',
+                            label: '强烈推荐！：余工的博客',
+                        },
+                        {
                         href: 'https://zhangshitao.top',
                         label: '强烈推荐！：张工的博客',
                     },
