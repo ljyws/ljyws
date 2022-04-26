@@ -22,7 +22,6 @@ Hello!
   <div>
     <div>
         大四在读，即将前往重庆大学读研<br/>
-        ROBOCON四届成员<br/>
         希望和大家多交流学习！<br/>
     </div>
   </div>
