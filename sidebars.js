@@ -9,12 +9,14 @@ const sidebars = {
 
         {
             type: 'category',
-            label: '高效工作指南',
+            label: '个人机器人项目',
             link: {
                 type: 'generated-index',
+                
             },
             items: [
-                'MODELS3D_VIEW',
+                
+                'PLUTO'
             ],
         },
     ],
