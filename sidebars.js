@@ -9,16 +9,33 @@ const sidebars = {
 
         {
             type: 'category',
-            label: '个人机器人项目',
+            label: '【机器人】个人项目',
             link: {
                 type: 'generated-index',
                 
             },
             items: [
-                
-                'PLUTO'
+                {
+                type: 'category',
+                label: '【Pluto】四舵轮移动机器人',
+                items: [
+                    'PLUTO_SUMMARY' ,
+                    'PLUTO_STRUCTURE',
+                    'PLUTO_HARDWARE'
+
+
+                ],
+            }
             ],
         },
+
+    {
+        type : 'category',
+        label: '【嵌入式】',
+        items: [
+                'FocController'
+        ],
+    }
     ],
 };
 
