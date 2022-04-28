@@ -33,7 +33,8 @@ const sidebars = {
         type : 'category',
         label: '【嵌入式】',
         items: [
-                'FocController'
+                'FocController',
+                'SteerNode'
         ],
     }
     ],
