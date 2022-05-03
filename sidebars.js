@@ -34,7 +34,9 @@ const sidebars = {
         label: '【嵌入式】',
         items: [
                 'FocController',
-                'SteerNode'
+                'SteerNode',
+                'MT6825_Encoder'
+
         ],
     }
     ],
