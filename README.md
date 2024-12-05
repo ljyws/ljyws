@@ -3,7 +3,7 @@
 </p>
 
 
-<img align="center" src="./images/github-contribution-grid-snake.svg" style="max-width: 90%;">
+<img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=ljyws&theme=transparent&include_all_commits=true&show_icons=true&hide_border=true" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ljyws)
 ![Profile views](https://views.whatilearened.today/views/github/Xuenew/views.svg)
