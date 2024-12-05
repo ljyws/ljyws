@@ -1,7 +1,6 @@
-<h2 align="center">👋 Hey! I'm LiJiayang. 🐘</h2>
-<br />
-<br />
-<br />
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=timeAuto&height=150&&section=header&text=Hello!&fontSize=60&fontAlign=50&fontAlignY=40&desc={%22this%20is%20keys's%20homepage%22}&descAlign=50&descSize=40&descAlignY=70&animation=fadeIn" />
+</p>
 
 
 <img align="center" src="./images/github-contribution-grid-snake.svg" style="max-width: 90%;">
