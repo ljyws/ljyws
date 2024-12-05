@@ -1,41 +1,18 @@
-# Website
+<h2 align="center">👋 Hey! I'm LiJiayang. 🐘</h2>
+<br />
+<br />
+<br />
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+<img align="center" src="./images/github-contribution-grid-snake.svg" style="max-width: 90%;">
 
-```
-$ yarn
-```
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ljyws)
+![Profile views](https://views.whatilearened.today/views/github/Xuenew/views.svg)
+![](https://img.shields.io/badge/ubuntu-20.04-<COLOR>.svg)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-007acc?style=flat-square&logo=Visual%20Studio%20Code)
+![Git](https://img.shields.io/badge/-Git-f05032?style=flat-square&logo=Git&logoColor=white)
 
-### Local Development
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<!-- <img height="130px" src="https://github-readme-stats.vercel.app/api?username=Xuenew&hide_title=true&show_icons=true&hide=issues&include_all_commits=true&count_private=true&theme=graywhite&hide_border=true&bg_color=45,ff7979,ffd479,fffc79,73fa79" alt="Xuenew's GitHub Stats"> <img height="130px" src="https://github-readme-stats.vercel.app/api/top-langs?username=Xuenew&hide_title=true&layout=compact&theme=graywhite&hide_border=true&bg_color=45,fffc79,73fa79,75f0db" alt="Most Used Languages">
+ -->
