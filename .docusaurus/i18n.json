@@ -1,0 +1,17 @@
+{
+  "defaultLocale": "ljyws",
+  "locales": [
+    "ljyws"
+  ],
+  "path": "i18n",
+  "currentLocale": "ljyws",
+  "localeConfigs": {
+    "ljyws": {
+      "label": "Ljyws",
+      "direction": "ltr",
+      "htmlLang": "ljyws",
+      "calendar": "gregory",
+      "path": "ljyws"
+    }
+  }
+}
