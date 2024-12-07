@@ -27,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
+          "sidebarPath": "./sidebars.ts",
           "remarkPlugins": [
             null
           ],
