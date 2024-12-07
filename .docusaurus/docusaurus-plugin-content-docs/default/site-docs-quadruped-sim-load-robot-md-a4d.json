@@ -1,0 +1,27 @@
+{
+  "id": "quadruped-sim/load_robot",
+  "title": "Load Robot",
+  "description": "<!-- ---",
+  "source": "@site/docs/quadruped-sim/load_robot.md",
+  "sourceDirName": "quadruped-sim",
+  "slug": "/quadruped-sim/load_robot",
+  "permalink": "/docs/quadruped-sim/load_robot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ljyws/docs/quadruped-sim/load_robot.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "load_robot",
+    "title": "Load Robot"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Eigen",
+    "permalink": "/docs/quadruped-sim/eigen/"
+  },
+  "next": {
+    "title": "足底轨迹规划",
+    "permalink": "/docs/quadruped-sim/foot_swing_trajectory"
+  }
+}

@@ -1,6 +1,8 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -29,9 +31,11 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           editUrl:
             'https://github.com/ljyws',
         },
@@ -48,6 +52,13 @@ const config: Config = {
     ],
   ],
 
+  stylesheets: [
+    {
+      href: '/static/katex.min.css',
+      type: 'text/css',
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -59,10 +70,10 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: 'HOME',
           position: 'left',
-          label: 'Blog',
+          label: 'BLOG',
         },
         {
           href: 'https://github.com/ljyws',
@@ -78,7 +89,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Blog',
               to: '/docs/intro',
             },
           ],

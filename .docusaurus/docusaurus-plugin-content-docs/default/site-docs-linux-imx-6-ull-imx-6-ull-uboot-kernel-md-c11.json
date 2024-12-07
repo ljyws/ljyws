@@ -1,0 +1,23 @@
+{
+  "id": "Linux/Imx6ull/Imx6ull_uboot_kernel",
+  "title": "u-boot & kernel",
+  "description": "从零开始编译u-boot与内核",
+  "source": "@site/docs/Linux/Imx6ull/Imx6ull_uboot_kernel.md",
+  "sourceDirName": "Linux/Imx6ull",
+  "slug": "/Linux/Imx6ull/Imx6ull_uboot_kernel",
+  "permalink": "/docs/Linux/Imx6ull/Imx6ull_uboot_kernel",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ljyws/docs/Linux/Imx6ull/Imx6ull_uboot_kernel.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "Imx6ull_uboot_kernel",
+    "title": "u-boot & kernel"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "足底轨迹规划",
+    "permalink": "/docs/quadruped-sim/foot_swing_trajectory"
+  }
+}

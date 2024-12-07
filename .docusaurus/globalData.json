@@ -8,20 +8,40 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "HOME",
           "docs": [
             {
-              "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "id": "HOME",
+              "path": "/docs/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Linux/Imx6ull/imx6ull_uboot_kernel/Imx6ull_uboot_kernel",
+              "path": "/docs/Linux/Imx6ull/imx6ull_uboot_kernel/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "quadruped-sim/eigen/eigen",
+              "path": "/docs/quadruped-sim/eigen/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "quadruped-sim/foot_swing_trajectory/foot_swing_trajectory",
+              "path": "/docs/quadruped-sim/foot_swing_trajectory/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "quadruped-sim/load_robot/load_robot",
+              "path": "/docs/quadruped-sim/load_robot/",
+              "sidebar": "docs"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "docs": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/",
+                "label": "HOME"
               }
             }
           }

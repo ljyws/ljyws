@@ -1,0 +1,25 @@
+{
+  "id": "HOME",
+  "title": "Li jiayang's Homepage",
+  "description": "本站所有内容遵循CC BY-NC 4.0开源协议，仅限非商业性使用，转载请注明出处。",
+  "source": "@site/docs/home.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ljyws/docs/home.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "HOME",
+    "title": "Li jiayang's Homepage",
+    "sidebar_label": "主页",
+    "slug": "/"
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Eigen",
+    "permalink": "/docs/quadruped-sim/eigen/"
+  }
+}

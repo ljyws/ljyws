@@ -1,0 +1,27 @@
+{
+  "id": "quadruped-sim/foot_swing_trajectory/foot_swing_trajectory",
+  "title": "foot swing trajectory",
+  "description": "$$",
+  "source": "@site/docs/quadruped-sim/foot_swing_trajectory/foot_swing_trajectory.md",
+  "sourceDirName": "quadruped-sim/foot_swing_trajectory",
+  "slug": "/quadruped-sim/foot_swing_trajectory/",
+  "permalink": "/docs/quadruped-sim/foot_swing_trajectory/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ljyws/docs/quadruped-sim/foot_swing_trajectory/foot_swing_trajectory.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "foot_swing_trajectory",
+    "title": "foot swing trajectory"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "load robot",
+    "permalink": "/docs/quadruped-sim/load_robot/"
+  },
+  "next": {
+    "title": "u-boot & kernel",
+    "permalink": "/docs/Linux/Imx6ull/imx6ull_uboot_kernel/"
+  }
+}

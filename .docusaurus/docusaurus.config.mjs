@@ -27,7 +27,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
+          "sidebarPath": "./sidebars.js",
+          "remarkPlugins": [
+            null
+          ],
+          "rehypePlugins": [
+            null
+          ],
           "editUrl": "https://github.com/ljyws"
         },
         "blog": {
@@ -40,6 +46,12 @@ export default {
       }
     ]
   ],
+  "stylesheets": [
+    {
+      "href": "/static/katex.min.css",
+      "type": "text/css"
+    }
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -50,10 +62,10 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "type": "doc",
+          "docId": "HOME",
           "position": "left",
-          "label": "Blog"
+          "label": "BLOG"
         },
         {
           "href": "https://github.com/ljyws",
@@ -70,7 +82,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Blog",
               "to": "/docs/intro"
             }
           ]
@@ -356,7 +368,6 @@ export default {
   "themes": [],
   "scripts": [],
   "headTags": [],
-  "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,
