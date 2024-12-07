@@ -7,10 +7,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Hello!',
   tagline: 'This is KeysLee’s homepage',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/sheep.ico',
   url: 'https://ljyws.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -33,22 +33,13 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ljyws',
         },
         blog: {
           showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+            'https://github.com/ljyws',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -64,7 +55,7 @@ const config: Config = {
       title: 'HOME',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/home_logo.svg',
       },
       items: [
         {
@@ -110,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: '/docs',
             },
             {
               label: 'GitHub',
@@ -124,6 +115,11 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    colorMode: {
+      defaultMode: 'light', 
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
 };

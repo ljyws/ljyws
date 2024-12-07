@@ -6,10 +6,10 @@
 export default {
   "title": "Hello!",
   "tagline": "This is KeysLee’s homepage",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/sheep.ico",
   "url": "https://ljyws.com",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
   "organizationName": "ljyws",
   "projectName": "ljyws",
@@ -28,21 +28,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/ljyws"
         },
         "blog": {
           "showReadingTime": true,
-          "feedOptions": {
-            "type": [
-              "rss",
-              "atom"
-            ],
-            "xslt": true
-          },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          "onInlineTags": "warn",
-          "onInlineAuthors": "warn",
-          "onUntruncatedBlogPosts": "warn"
+          "editUrl": "https://github.com/ljyws"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -56,7 +46,7 @@ export default {
       "title": "HOME",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/home_logo.svg"
       },
       "items": [
         {
@@ -103,7 +93,7 @@ export default {
           "items": [
             {
               "label": "Blog",
-              "to": "/blog"
+              "to": "/docs"
             },
             {
               "label": "GitHub",
@@ -319,7 +309,7 @@ export default {
     },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
+      "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
     "docs": {

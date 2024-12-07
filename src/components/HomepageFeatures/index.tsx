@@ -12,12 +12,36 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: ' Who am I',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/whoami.svg').default,
     description: (
       <div className={clsx(styles.featureDescription)}>
         <h4>· CQU student</h4>
-        <h4>· Passionate about robot technology</h4>
+        <h4>· Passionate about robot/embedded technology</h4>
+        <h4>· Participate in the 2018-2022 ROBOCON</h4>
+      </div>
+    ),
+  },
+   
+  {
+    title: ' My Skills ',
+    Svg: require('@site/static/img/skill.svg').default,
+    description: (
+      <div className={clsx(styles.featureDescription)}>
+        <h4>· C/C++、Py、Matlab、Maybe a little java</h4>
+        <h4>· Familiar with robotic motion control</h4>
+        <h4>· Familiar with 32-bit MCU such as ST or AT</h4>
+        <h4>· Beginner in Linux drivers</h4>
+      </div>
+    ),
+  },
 
+  {
+    title: ' Endeavor ',
+    Svg: require('@site/static/img/earth.svg').default,
+    description: (
+      <div className={clsx(styles.featureDescription)}>
+        <h4>· Starting a business with friends</h4>
+        <h4>· Make people's lives better</h4>
       </div>
     ),
   },
