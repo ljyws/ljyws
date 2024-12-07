@@ -27,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
+          "sidebarPath": "D:\\blog\\ljyws\\sidebars.js",
           "remarkPlugins": [
             null
           ],

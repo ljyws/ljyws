@@ -31,7 +31,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           remarkPlugins: [remarkMath],
@@ -134,7 +134,5 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
-
-
 
 export default config;
