@@ -9,7 +9,7 @@ const sidebars = {
 
     {
       type: 'category',
-      label: 'Quadruped-sim',
+      label: 'Quadruped-Sim',
       items: [
         'quadruped-sim/eigen/eigen',
         'quadruped-sim/load_robot/load_robot',
