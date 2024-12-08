@@ -2,22 +2,17 @@
 id: foot_swing_trajectory
 title: foot swing trajectory
 ---
-$$
-I = \int_0^{2\pi} \sin(x)\,dx
-$$
 
-
-$$
-I = \int_0^{2\pi} \sin(x)\,dx
-$$
-<!-- ---
+---
 采用MIT-mini-cheetah的方案，使用贝塞尔曲线方程
 
 ## 贝塞尔曲线
 贝塞尔曲线是由法国工程师所发表的，一开始被广泛应用在汽车的主体设计上，后来被工程师以稳定数值的方法开发出该算法。直到目前，贝塞尔曲线仍被广泛应用在轨迹规划中
 
 先给出公式：
-$$B(t)=\sum_{i=0}^{n}\begin{pmatrix}n\\i\end{pmatrix}P_{i}(1-t)^{n-i}t^{i}$$
+$$
+B(t)=\sum_{i=0}^{n}\begin{pmatrix}n\\i\end{pmatrix}P_{i}(1-t)^{n-i}t^{i}
+$$
 
 ## 一阶曲线
 当有两个点P0,P1时，设有一个点Pt，随着时间由P0运动到P1，则这个过程可以由：  
@@ -44,7 +39,9 @@ plt.show()
 公式为：  
 
 
-$$B(t)=(1-t)^{2} P_{0}+2t(1-t)P_{1}+t^{2}P_{2},t\in [0,1]$$
+$$
+B(t)=(1-t)^{2} P_{0}+2t(1-t)P_{1}+t^{2}P_{2},t\in [0,1]
+$$
 
 
 同样利用python工具来看一下
@@ -118,12 +115,16 @@ void FootSwingTrajectory<T>::computeSwingTrajectoryBezier(T phase, T swingTime)
   }
 ```
 也就是
+$$
 \triangle P = P_{f}-P_{0}b = t^{3}+3t^{2}(1-t)P_{out} = P_{0}+b\triangle P
+$$
 
 在三维空间中，也就是  
 
-$$\begin{bmatrix}x_{out}\\y_{out}\\z_{out}\end{bmatrix} = \begin{bmatrix}x_{0}\\y_{0}\\z_{0}\end{bmatrix} + (t^{3}+3t^{2}(1-t))\begin{bmatrix}x_{f}-x_{0}\\y_{f}-y_{0}\\z_{f}-z_{0}\end{bmatrix}$$
+$$
+\begin{bmatrix}x_{out}\\y_{out}\\z_{out}\end{bmatrix} = \begin{bmatrix}x_{0}\\y_{0}\\z_{0}\end{bmatrix} + (t^{3}+3t^{2}(1-t))\begin{bmatrix}x_{f}-x_{0}\\y_{f}-y_{0}\\z_{f}-z_{0}\end{bmatrix}
+$$
 
 同时将整个摆动过程分成两段：上升和下降，分别引入抬腿高度进行z的计算，再最后覆盖到相应的位置，最终计算完成_p,_v,_a，分别表示位置、速度、加速度
 
-![avatar](img/7.png) -->
+![avatar](img/7.png)

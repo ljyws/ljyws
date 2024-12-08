@@ -26,16 +26,34 @@ const config: Config = {
     locales: ['ljyws'],
   },
 
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+',
+      crossorigin: 'anonymous',
+    },
+  ],
+
+  scripts: [
+    {
+      src: 'src/custom-script.js',
+      async: true,
+    },
+  ],
+  
   presets: [
     [
       'classic',
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          path: 'docs',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
+          rehypePlugins: [[require('rehype-katex'), { strict: false }]],
           editUrl:
             'https://github.com/ljyws',
         },
@@ -52,12 +70,7 @@ const config: Config = {
     ],
   ],
 
-  stylesheets: [
-    {
-      href: '/static/katex.min.css',
-      type: 'text/css',
-    },
-  ],
+
 
   themeConfig: {
     // Replace with your project's social card

@@ -22,17 +22,37 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "stylesheets": [
+    {
+      "href": "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css",
+      "type": "text/css",
+      "integrity": "sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+",
+      "crossorigin": "anonymous"
+    }
+  ],
+  "scripts": [
+    {
+      "src": "src/custom-script.js",
+      "async": true
+    }
+  ],
   "presets": [
     [
       "classic",
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
+          "path": "docs",
           "remarkPlugins": [
             null
           ],
           "rehypePlugins": [
-            null
+            [
+              null,
+              {
+                "strict": false
+              }
+            ]
           ],
           "editUrl": "https://github.com/ljyws"
         },
@@ -45,12 +65,6 @@ export default {
         }
       }
     ]
-  ],
-  "stylesheets": [
-    {
-      "href": "/static/katex.min.css",
-      "type": "text/css"
-    }
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
@@ -366,7 +380,6 @@ export default {
   "customFields": {},
   "plugins": [],
   "themes": [],
-  "scripts": [],
   "headTags": [],
   "clientModules": [],
   "titleDelimiter": "|",
