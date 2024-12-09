@@ -8,7 +8,6 @@
   "permalink": "/docs/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/ljyws/docs/home.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
@@ -19,7 +18,7 @@
   },
   "sidebar": "docs",
   "next": {
-    "title": "Eigen",
-    "permalink": "/docs/quadruped-sim/eigen/"
+    "title": "Finite State Machine",
+    "permalink": "/docs/ProgrammingTips/finite-state machine/fsm"
   }
 }

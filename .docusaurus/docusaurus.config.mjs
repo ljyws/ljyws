@@ -53,8 +53,7 @@ export default {
                 "strict": false
               }
             ]
-          ],
-          "editUrl": "https://github.com/ljyws"
+          ]
         },
         "blog": {
           "showReadingTime": true,

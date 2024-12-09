@@ -21,6 +21,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "ProgrammingTips/finite-state machine/fsm",
+              "path": "/docs/ProgrammingTips/finite-state machine/fsm",
+              "sidebar": "docs"
+            },
+            {
               "id": "quadruped-sim/eigen/eigen",
               "path": "/docs/quadruped-sim/eigen/",
               "sidebar": "docs"

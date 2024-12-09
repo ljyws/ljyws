@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '24e'),
+    component: ComponentCreator('/docs', '70b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'cff'),
+        component: ComponentCreator('/docs', '9b4'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f48'),
+            component: ComponentCreator('/docs', '274'),
             routes: [
               {
                 path: '/docs/',
@@ -28,6 +28,12 @@ export default [
               {
                 path: '/docs/Linux/Imx6ull/imx6ull_uboot_kernel/',
                 component: ComponentCreator('/docs/Linux/Imx6ull/imx6ull_uboot_kernel/', '552'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/ProgrammingTips/finite-state machine/fsm',
+                component: ComponentCreator('/docs/ProgrammingTips/finite-state machine/fsm', 'adc'),
                 exact: true,
                 sidebar: "docs"
               },

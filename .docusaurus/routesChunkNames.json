@@ -6,17 +6,17 @@
     },
     "content": "393be207"
   },
-  "/docs-24e": {
+  "/docs-70b": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-cff": {
+  "/docs-9b4": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-f48": {
+  "/docs-274": {
     "__comp": "a94703ab"
   },
   "/docs/-a9d": {
@@ -26,6 +26,10 @@
   "/docs/Linux/Imx6ull/imx6ull_uboot_kernel/-552": {
     "__comp": "17896441",
     "content": "a449d16e"
+  },
+  "/docs/ProgrammingTips/finite-state machine/fsm-adc": {
+    "__comp": "17896441",
+    "content": "4f1be27e"
   },
   "/docs/quadruped-sim/eigen/-49a": {
     "__comp": "17896441",

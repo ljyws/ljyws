@@ -21,6 +21,16 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'category',
+      label: 'ProgrammingTips',
+      items: [
+        'ProgrammingTips/finite-state machine/fsm',
+
+
+      ],
+    },
+
+    {
+      type: 'category',
       label: 'Quadruped-sim',
       items: [
         'quadruped-sim/eigen/eigen',

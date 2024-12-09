@@ -8,7 +8,6 @@
   "permalink": "/docs/quadruped-sim/eigen/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/ljyws/docs/quadruped-sim/eigen/eigen.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
@@ -17,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "主页",
-    "permalink": "/docs/"
+    "title": "Finite State Machine",
+    "permalink": "/docs/ProgrammingTips/finite-state machine/fsm"
   },
   "next": {
     "title": "load robot",

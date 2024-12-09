@@ -54,8 +54,8 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           remarkPlugins: [remarkMath],
           rehypePlugins: [[require('rehype-katex'), { strict: false }]],
-          editUrl:
-            'https://github.com/ljyws',
+          // editUrl:
+          //   'https://github.com/ljyws',
         },
         blog: {
           showReadingTime: true,
