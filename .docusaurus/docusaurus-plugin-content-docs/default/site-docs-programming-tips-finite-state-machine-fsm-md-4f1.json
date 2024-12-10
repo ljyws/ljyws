@@ -21,7 +21,7 @@
     "permalink": "/docs/"
   },
   "next": {
-    "title": "Eigen",
-    "permalink": "/docs/quadruped-sim/eigen/"
+    "title": "Simulation",
+    "permalink": "/docs/StepperCtrl/simulation"
   }
 }

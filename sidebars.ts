@@ -28,6 +28,14 @@ const sidebars: SidebarsConfig = {
 
       ],
     },
+    {
+      type: 'category',
+      label: 'StepperFocCtrl',
+      items: [
+        'StepperCtrl/simulation',
+      ],
+    },
+
 
     {
       type: 'category',

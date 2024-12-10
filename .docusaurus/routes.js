@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '70b'),
+    component: ComponentCreator('/docs', 'd1b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '9b4'),
+        component: ComponentCreator('/docs', '5f9'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '274'),
+            component: ComponentCreator('/docs', '1cc'),
             routes: [
               {
                 path: '/docs/',
@@ -52,6 +52,12 @@ export default [
               {
                 path: '/docs/quadruped-sim/load_robot/',
                 component: ComponentCreator('/docs/quadruped-sim/load_robot/', '9ee'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/StepperCtrl/simulation',
+                component: ComponentCreator('/docs/StepperCtrl/simulation', 'c79'),
                 exact: true,
                 sidebar: "docs"
               }
