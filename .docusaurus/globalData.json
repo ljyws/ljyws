@@ -39,6 +39,11 @@
               "id": "quadruped-sim/load_robot/load_robot",
               "path": "/docs/quadruped-sim/load_robot/",
               "sidebar": "docs"
+            },
+            {
+              "id": "StepperCtrl/simulation",
+              "path": "/docs/StepperCtrl/simulation",
+              "sidebar": "docs"
             }
           ],
           "draftIds": [],
