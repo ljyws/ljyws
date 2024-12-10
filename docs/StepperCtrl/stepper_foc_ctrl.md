@@ -29,7 +29,7 @@ $$
 ### park变换
 对于park变化，和bldc时一致，也就是把两相静止的α-β坐标转换到随转子θ旋转的qd轴上，也是比较简单的数学变换：
 $$
-\left \{\begin{aligned}I_{d} &= \cos(\theta) I_{\alpha } + \sin(\theta) I_{\beta} \\I_{\alpha} &= -\sin(\theta) I_{\alpha } + \cos(\theta) I_{\beta}\end{aligned}\right.
+\left \{\begin{aligned}I_{d} &= \cos(\theta) I_{\alpha } + \sin(\theta) I_{\beta} \\I_{q} &= -\sin(\theta) I_{\alpha } + \cos(\theta) I_{\beta}\end{aligned}\right.
 $$
 
 ### SVPWM
