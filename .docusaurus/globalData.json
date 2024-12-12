@@ -11,6 +11,11 @@
           "mainDocId": "HOME",
           "docs": [
             {
+              "id": "FocController/foc_controller",
+              "path": "/docs/FocController/foc_controller",
+              "sidebar": "docs"
+            },
+            {
               "id": "HOME",
               "path": "/docs/",
               "sidebar": "docs"

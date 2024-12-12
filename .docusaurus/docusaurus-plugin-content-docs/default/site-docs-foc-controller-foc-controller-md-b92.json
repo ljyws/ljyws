@@ -1,0 +1,27 @@
+{
+  "id": "FocController/foc_controller",
+  "title": "BLDC FOC Controller",
+  "description": "概念",
+  "source": "@site/docs/FocController/foc_controller.md",
+  "sourceDirName": "FocController",
+  "slug": "/FocController/foc_controller",
+  "permalink": "/docs/FocController/foc_controller",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "foc_controller",
+    "title": "BLDC FOC Controller",
+    "sidebar_label": "Motor Controller"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Simulation",
+    "permalink": "/docs/StepperCtrl/simulation"
+  },
+  "next": {
+    "title": "Eigen",
+    "permalink": "/docs/quadruped-sim/eigen/"
+  }
+}

@@ -9,19 +9,25 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd1b'),
+    component: ComponentCreator('/docs', 'f4c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '5f9'),
+        component: ComponentCreator('/docs', '417'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '1cc'),
+            component: ComponentCreator('/docs', '4b2'),
             routes: [
               {
                 path: '/docs/',
                 component: ComponentCreator('/docs/', 'a9d'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/FocController/foc_controller',
+                component: ComponentCreator('/docs/FocController/foc_controller', '8d3'),
                 exact: true,
                 sidebar: "docs"
               },

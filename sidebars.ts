@@ -36,7 +36,13 @@ const sidebars: SidebarsConfig = {
       ],
     },
 
-
+    {
+      type: 'category',
+      label: 'FocController',
+      items: [
+        'FocController/foc_controller',
+      ],
+    },
     {
       type: 'category',
       label: 'Quadruped-sim',

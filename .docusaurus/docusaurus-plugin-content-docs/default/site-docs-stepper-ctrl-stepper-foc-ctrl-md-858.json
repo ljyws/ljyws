@@ -21,7 +21,7 @@
     "permalink": "/docs/ProgrammingTips/finite-state machine/fsm"
   },
   "next": {
-    "title": "Eigen",
-    "permalink": "/docs/quadruped-sim/eigen/"
+    "title": "Motor Controller",
+    "permalink": "/docs/FocController/foc_controller"
   }
 }
