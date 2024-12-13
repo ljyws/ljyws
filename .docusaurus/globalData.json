@@ -26,6 +26,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "Linux/Imx6ull/irq/irq",
+              "path": "/docs/Linux/Imx6ull/irq/",
+              "sidebar": "docs"
+            },
+            {
               "id": "ProgrammingTips/finite-state machine/fsm",
               "path": "/docs/ProgrammingTips/finite-state machine/fsm",
               "sidebar": "docs"

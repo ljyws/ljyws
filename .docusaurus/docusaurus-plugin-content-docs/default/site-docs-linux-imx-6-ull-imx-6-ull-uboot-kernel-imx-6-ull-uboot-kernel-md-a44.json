@@ -18,5 +18,9 @@
   "previous": {
     "title": "foot swing trajectory",
     "permalink": "/docs/quadruped-sim/foot_swing_trajectory/"
+  },
+  "next": {
+    "title": "Linux IRQ",
+    "permalink": "/docs/Linux/Imx6ull/irq/"
   }
 }

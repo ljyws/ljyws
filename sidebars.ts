@@ -63,6 +63,7 @@ const sidebars: SidebarsConfig = {
           label: 'Imx6ull',
           items: [
             'Linux/Imx6ull/imx6ull_uboot_kernel/Imx6ull_uboot_kernel',
+            'Linux/Imx6ull/irq/irq'
     
           ],
         }
