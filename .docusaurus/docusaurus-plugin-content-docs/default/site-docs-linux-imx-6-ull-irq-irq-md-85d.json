@@ -1,7 +1,7 @@
 {
   "id": "Linux/Imx6ull/irq/irq",
   "title": "Linux 中断",
-  "description": "Linux中的中断API函数",
+  "description": "中断",
   "source": "@site/docs/Linux/Imx6ull/irq/irq.md",
   "sourceDirName": "Linux/Imx6ull/irq",
   "slug": "/Linux/Imx6ull/irq/",
