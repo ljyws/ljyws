@@ -1,0 +1,23 @@
+{
+  "id": "Linux/irq/irq",
+  "title": "Linux 中断",
+  "description": "中断",
+  "source": "@site/docs/Linux/irq/irq.md",
+  "sourceDirName": "Linux/irq",
+  "slug": "/Linux/irq/",
+  "permalink": "/docs/Linux/irq/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "irq",
+    "title": "Linux 中断",
+    "sidebar_label": "Linux IRQ"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "u-boot & kernel",
+    "permalink": "/docs/Linux/Imx6ull/imx6ull_uboot_kernel/"
+  }
+}

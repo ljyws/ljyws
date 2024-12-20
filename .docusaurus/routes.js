@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '607'),
+    component: ComponentCreator('/docs', '9ca'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7a8'),
+        component: ComponentCreator('/docs', '4a5'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '946'),
+            component: ComponentCreator('/docs', '985'),
             routes: [
               {
                 path: '/docs/',
@@ -38,8 +38,8 @@ export default [
                 sidebar: "docs"
               },
               {
-                path: '/docs/Linux/Imx6ull/irq/',
-                component: ComponentCreator('/docs/Linux/Imx6ull/irq/', '0fd'),
+                path: '/docs/Linux/irq/',
+                component: ComponentCreator('/docs/Linux/irq/', '481'),
                 exact: true,
                 sidebar: "docs"
               },
