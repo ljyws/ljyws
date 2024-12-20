@@ -65,7 +65,15 @@ const sidebars: SidebarsConfig = {
             'Linux/Imx6ull/imx6ull_uboot_kernel/Imx6ull_uboot_kernel',
           ],
         },
-        'Linux/irq/irq'
+        'Linux/irq/irq',
+        'Linux/CPU Context/cou_context',
+        {
+          type: 'category',
+          label: 'vmm',
+          items: [
+            'Linux/vmm/vmm',
+          ],
+        },
 
       ],
     }

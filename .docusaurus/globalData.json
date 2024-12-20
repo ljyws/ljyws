@@ -21,6 +21,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "Linux/CPU Context/cou_context",
+              "path": "/docs/Linux/CPU Context/cou_context",
+              "sidebar": "docs"
+            },
+            {
               "id": "Linux/Imx6ull/imx6ull_uboot_kernel/Imx6ull_uboot_kernel",
               "path": "/docs/Linux/Imx6ull/imx6ull_uboot_kernel/",
               "sidebar": "docs"
@@ -28,6 +33,11 @@
             {
               "id": "Linux/irq/irq",
               "path": "/docs/Linux/irq/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Linux/vmm/vmm",
+              "path": "/docs/Linux/vmm/",
               "sidebar": "docs"
             },
             {

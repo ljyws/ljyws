@@ -1,0 +1,23 @@
+{
+  "id": "Linux/vmm/vmm",
+  "title": "Linux Virtual Memory Management",
+  "description": "文章原文：https://zhuanlan.zhihu.com/p/577035415",
+  "source": "@site/docs/Linux/vmm/vmm.md",
+  "sourceDirName": "Linux/vmm",
+  "slug": "/Linux/vmm/",
+  "permalink": "/docs/Linux/vmm/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vmm",
+    "title": "Linux Virtual Memory Management",
+    "sidebar_label": "Linux VMM"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "CPU Context",
+    "permalink": "/docs/Linux/CPU Context/cou_context"
+  }
+}

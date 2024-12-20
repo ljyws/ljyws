@@ -1,0 +1,27 @@
+{
+  "id": "Linux/CPU Context/cou_context",
+  "title": "Linux CPU Context",
+  "description": "CPU上下文",
+  "source": "@site/docs/Linux/CPU Context/cpu_context.md",
+  "sourceDirName": "Linux/CPU Context",
+  "slug": "/Linux/CPU Context/cou_context",
+  "permalink": "/docs/Linux/CPU Context/cou_context",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "cou_context",
+    "title": "Linux CPU Context",
+    "sidebar_label": "CPU Context"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Linux IRQ",
+    "permalink": "/docs/Linux/irq/"
+  },
+  "next": {
+    "title": "Linux VMM",
+    "permalink": "/docs/Linux/vmm/"
+  }
+}
