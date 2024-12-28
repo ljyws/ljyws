@@ -1,0 +1,27 @@
+{
+  "id": "FreeRTOS/Scheduler/freertos_scheduler",
+  "title": "FreeRTOS Scheduler",
+  "description": "FreeRTOS Scheduler",
+  "source": "@site/docs/FreeRTOS/Scheduler/scheduler.md",
+  "sourceDirName": "FreeRTOS/Scheduler",
+  "slug": "/FreeRTOS/Scheduler/",
+  "permalink": "/docs/FreeRTOS/Scheduler/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "freertos_scheduler",
+    "title": "FreeRTOS Scheduler",
+    "sidebar_label": "Scheduler"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "List",
+    "permalink": "/docs/FreeRTOS/List/"
+  },
+  "next": {
+    "title": "Simulation",
+    "permalink": "/docs/StepperCtrl/simulation"
+  }
+}

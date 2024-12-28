@@ -11,8 +11,26 @@
           "mainDocId": "HOME",
           "docs": [
             {
+              "id": "DataStructure/array/array",
+              "path": "/docs/DataStructure/array/"
+            },
+            {
+              "id": "DataStructure/linked_list/linked_list",
+              "path": "/docs/DataStructure/linked_list/"
+            },
+            {
               "id": "FocController/foc_controller",
               "path": "/docs/FocController/foc_controller",
+              "sidebar": "docs"
+            },
+            {
+              "id": "FreeRTOS/List/freertos_list",
+              "path": "/docs/FreeRTOS/List/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "FreeRTOS/Scheduler/freertos_scheduler",
+              "path": "/docs/FreeRTOS/Scheduler/",
               "sidebar": "docs"
             },
             {

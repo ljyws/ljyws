@@ -21,7 +21,7 @@
     "permalink": "/docs/"
   },
   "next": {
-    "title": "Simulation",
-    "permalink": "/docs/StepperCtrl/simulation"
+    "title": "List",
+    "permalink": "/docs/FreeRTOS/List/"
   }
 }

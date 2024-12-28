@@ -1,0 +1,18 @@
+{
+  "id": "DataStructure/linked_list/linked_list",
+  "title": "链表",
+  "description": "链表",
+  "source": "@site/docs/DataStructure/linked_list/linked_list.md",
+  "sourceDirName": "DataStructure/linked_list",
+  "slug": "/DataStructure/linked_list/",
+  "permalink": "/docs/DataStructure/linked_list/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "linked_list",
+    "title": "链表",
+    "sidebar_label": "Linked List"
+  }
+}

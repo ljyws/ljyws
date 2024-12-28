@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b46'),
+    component: ComponentCreator('/docs', 'c5e'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '44e'),
+        component: ComponentCreator('/docs', '915'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'd38'),
+            component: ComponentCreator('/docs', 'a32'),
             routes: [
               {
                 path: '/docs/',
@@ -26,8 +26,30 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/DataStructure/array/',
+                component: ComponentCreator('/docs/DataStructure/array/', '2cf'),
+                exact: true
+              },
+              {
+                path: '/docs/DataStructure/linked_list/',
+                component: ComponentCreator('/docs/DataStructure/linked_list/', '1e4'),
+                exact: true
+              },
+              {
                 path: '/docs/FocController/foc_controller',
                 component: ComponentCreator('/docs/FocController/foc_controller', '8d3'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/FreeRTOS/List/',
+                component: ComponentCreator('/docs/FreeRTOS/List/', '3d1'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/FreeRTOS/Scheduler/',
+                component: ComponentCreator('/docs/FreeRTOS/Scheduler/', 'ccb'),
                 exact: true,
                 sidebar: "docs"
               },

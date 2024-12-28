@@ -1,0 +1,27 @@
+{
+  "id": "FreeRTOS/List/freertos_list",
+  "title": "FreeRTOS List",
+  "description": "FreeRTOS 列表",
+  "source": "@site/docs/FreeRTOS/List/list.md",
+  "sourceDirName": "FreeRTOS/List",
+  "slug": "/FreeRTOS/List/",
+  "permalink": "/docs/FreeRTOS/List/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "freertos_list",
+    "title": "FreeRTOS List",
+    "sidebar_label": "List"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Finite State Machine",
+    "permalink": "/docs/ProgrammingTips/finite-state machine/fsm"
+  },
+  "next": {
+    "title": "Scheduler",
+    "permalink": "/docs/FreeRTOS/Scheduler/"
+  }
+}
