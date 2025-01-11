@@ -19,5 +19,9 @@
   "previous": {
     "title": "CPU Context",
     "permalink": "/docs/Linux/CPU Context/cou_context"
+  },
+  "next": {
+    "title": "List",
+    "permalink": "/docs/FreeRTOS/List/"
   }
 }

@@ -19,9 +19,5 @@
   "previous": {
     "title": "List",
     "permalink": "/docs/FreeRTOS/List/"
-  },
-  "next": {
-    "title": "Simulation",
-    "permalink": "/docs/StepperCtrl/simulation"
   }
 }

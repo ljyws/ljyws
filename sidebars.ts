@@ -31,16 +31,6 @@ const sidebars: SidebarsConfig = {
 
     {
       type: 'category',
-      label: 'FreeRTOS',
-      items: [
-        'FreeRTOS/List/freertos_list',
-        'FreeRTOS/Scheduler/freertos_scheduler',
-      ],
-    },
-
-
-    {
-      type: 'category',
       label: 'StepperFocCtrl',
       items: [
         'StepperCtrl/simulation',
@@ -87,7 +77,16 @@ const sidebars: SidebarsConfig = {
         },
 
       ],
-    }
+    },
+
+    {
+      type: 'category',
+      label: 'FreeRTOS',
+      items: [
+        'FreeRTOS/List/freertos_list',
+        'FreeRTOS/Scheduler/freertos_scheduler',
+      ],
+    },
 
     
   ],

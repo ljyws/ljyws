@@ -17,8 +17,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Scheduler",
-    "permalink": "/docs/FreeRTOS/Scheduler/"
+    "title": "Finite State Machine",
+    "permalink": "/docs/ProgrammingTips/finite-state machine/fsm"
   },
   "next": {
     "title": "Motor Controller",
