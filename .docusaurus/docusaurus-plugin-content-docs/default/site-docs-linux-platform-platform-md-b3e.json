@@ -1,0 +1,27 @@
+{
+  "id": "Linux/platform/platform",
+  "title": "Linux Platform",
+  "description": "Linux设备驱动分层",
+  "source": "@site/docs/Linux/platform/platform.md",
+  "sourceDirName": "Linux/platform",
+  "slug": "/Linux/platform/",
+  "permalink": "/docs/Linux/platform/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "platform",
+    "title": "Linux Platform",
+    "sidebar_label": "Linux Platform"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Linux IRQ",
+    "permalink": "/docs/Linux/irq/"
+  },
+  "next": {
+    "title": "CPU Context",
+    "permalink": "/docs/Linux/CPU Context/cou_context"
+  }
+}

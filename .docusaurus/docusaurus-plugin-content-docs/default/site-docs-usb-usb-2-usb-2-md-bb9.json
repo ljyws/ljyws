@@ -1,0 +1,18 @@
+{
+  "id": "USB/usb_2/usb_2_0",
+  "title": "USB 2.0",
+  "description": "简介",
+  "source": "@site/docs/USB/usb_2/usb_2.md",
+  "sourceDirName": "USB/usb_2",
+  "slug": "/USB/usb_2/",
+  "permalink": "/docs/USB/usb_2/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "usb_2_0",
+    "title": "USB 2.0",
+    "sidebar_label": "USB 2.0"
+  }
+}

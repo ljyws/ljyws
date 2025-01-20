@@ -1,0 +1,18 @@
+{
+  "id": "Makefile/introduce/introduce",
+  "title": "Makefile introduce",
+  "description": "来自文档《跟我一起写Makefile》的笔记",
+  "source": "@site/docs/Makefile/introduce/imtroduce.md",
+  "sourceDirName": "Makefile/introduce",
+  "slug": "/Makefile/introduce/introduce",
+  "permalink": "/docs/Makefile/introduce/introduce",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "introduce",
+    "title": "Makefile introduce",
+    "sidebar_label": "Introduce"
+  }
+}

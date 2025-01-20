@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c5e'),
+    component: ComponentCreator('/docs', 'c77'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '915'),
+        component: ComponentCreator('/docs', '808'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'a32'),
+            component: ComponentCreator('/docs', '462'),
             routes: [
               {
                 path: '/docs/',
@@ -107,10 +107,26 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/Linux/platform/',
+                component: ComponentCreator('/docs/Linux/platform/', 'ff9'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/Linux/vmm/',
                 component: ComponentCreator('/docs/Linux/vmm/', 'd5b'),
                 exact: true,
                 sidebar: "docs"
+              },
+              {
+                path: '/docs/Makefile/introduce/introduce',
+                component: ComponentCreator('/docs/Makefile/introduce/introduce', 'd41'),
+                exact: true
+              },
+              {
+                path: '/docs/Makefile/summary/',
+                component: ComponentCreator('/docs/Makefile/summary/', '36d'),
+                exact: true
               },
               {
                 path: '/docs/ProgrammingTips/finite-state machine/fsm',
@@ -141,6 +157,11 @@ export default [
                 component: ComponentCreator('/docs/StepperCtrl/simulation', 'c79'),
                 exact: true,
                 sidebar: "docs"
+              },
+              {
+                path: '/docs/USB/usb_2/',
+                component: ComponentCreator('/docs/USB/usb_2/', 'b50'),
+                exact: true
               }
             ]
           }

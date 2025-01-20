@@ -54,9 +54,22 @@
               "sidebar": "docs"
             },
             {
+              "id": "Linux/platform/platform",
+              "path": "/docs/Linux/platform/",
+              "sidebar": "docs"
+            },
+            {
               "id": "Linux/vmm/vmm",
               "path": "/docs/Linux/vmm/",
               "sidebar": "docs"
+            },
+            {
+              "id": "Makefile/introduce/introduce",
+              "path": "/docs/Makefile/introduce/introduce"
+            },
+            {
+              "id": "Makefile/summary/summary",
+              "path": "/docs/Makefile/summary/"
             },
             {
               "id": "ProgrammingTips/finite-state machine/fsm",
@@ -82,6 +95,10 @@
               "id": "StepperCtrl/simulation",
               "path": "/docs/StepperCtrl/simulation",
               "sidebar": "docs"
+            },
+            {
+              "id": "USB/usb_2/usb_2_0",
+              "path": "/docs/USB/usb_2/"
             }
           ],
           "draftIds": [],

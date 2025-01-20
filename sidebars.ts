@@ -67,6 +67,7 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'Linux/irq/irq',
+        'Linux/platform/platform',
         'Linux/CPU Context/cou_context',
         {
           type: 'category',

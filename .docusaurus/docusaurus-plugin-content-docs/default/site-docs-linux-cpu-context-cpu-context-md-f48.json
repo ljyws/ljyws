@@ -17,8 +17,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Linux IRQ",
-    "permalink": "/docs/Linux/irq/"
+    "title": "Linux Platform",
+    "permalink": "/docs/Linux/platform/"
   },
   "next": {
     "title": "Linux VMM",

@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-c5e": {
+  "/docs-c77": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-915": {
+  "/docs-808": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-a32": {
+  "/docs-462": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/-a9d": {
@@ -98,9 +98,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linux-irq-b-05-506"
   },
+  "/docs/Linux/platform/-ff9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-linux-platform-b-3-e-b42"
+  },
   "/docs/Linux/vmm/-d5b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linux-vmm-fc-8-790"
+  },
+  "/docs/Makefile/introduce/introduce-d41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-makefile-introduce-introduce-6-d-7-7e8"
+  },
+  "/docs/Makefile/summary/-36d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-makefile-summary-65-b-949"
   },
   "/docs/ProgrammingTips/finite-state machine/fsm-adc": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -121,6 +133,10 @@
   "/docs/StepperCtrl/simulation-c79": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-stepper-ctrl-simulation-858-942"
+  },
+  "/docs/USB/usb_2/-b50": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-usb-usb-2-bb-9-118"
   },
   "/-e5f": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
