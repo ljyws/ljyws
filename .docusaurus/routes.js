@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c77'),
+    component: ComponentCreator('/docs', 'ebb'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '808'),
+        component: ComponentCreator('/docs', 'e59'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '462'),
+            component: ComponentCreator('/docs', 'b59'),
             routes: [
               {
                 path: '/docs/',
@@ -71,10 +71,27 @@ export default [
                 exact: true
               },
               {
+                path: '/docs/Embedded/IIC/',
+                component: ComponentCreator('/docs/Embedded/IIC/', 'b42'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/Embedded/SPI/',
+                component: ComponentCreator('/docs/Embedded/SPI/', '2e6'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/FocController/foc_controller',
                 component: ComponentCreator('/docs/FocController/foc_controller', '8d3'),
                 exact: true,
                 sidebar: "docs"
+              },
+              {
+                path: '/docs/FocController/pll',
+                component: ComponentCreator('/docs/FocController/pll', '9d2'),
+                exact: true
               },
               {
                 path: '/docs/FreeRTOS/List/',

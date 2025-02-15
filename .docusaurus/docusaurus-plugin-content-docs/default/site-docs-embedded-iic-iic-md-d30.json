@@ -1,0 +1,27 @@
+{
+  "id": "Embedded/IIC/iic",
+  "title": "IIC",
+  "description": "简介",
+  "source": "@site/docs/Embedded/IIC/iic.md",
+  "sourceDirName": "Embedded/IIC",
+  "slug": "/Embedded/IIC/",
+  "permalink": "/docs/Embedded/IIC/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "iic",
+    "title": "IIC",
+    "sidebar_label": "iic"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Finite State Machine",
+    "permalink": "/docs/ProgrammingTips/finite-state machine/fsm"
+  },
+  "next": {
+    "title": "spi",
+    "permalink": "/docs/Embedded/SPI/"
+  }
+}

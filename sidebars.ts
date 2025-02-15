@@ -24,8 +24,15 @@ const sidebars: SidebarsConfig = {
       label: 'ProgrammingTips',
       items: [
         'ProgrammingTips/finite-state machine/fsm',
+      ],
+    },
 
-
+    {
+      type: 'category',
+      label: 'Embedded',
+      items: [
+        'Embedded/IIC/iic',
+        'Embedded/SPI/spi',
       ],
     },
 

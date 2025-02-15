@@ -19,9 +19,23 @@
               "path": "/docs/DataStructure/linked_list/"
             },
             {
+              "id": "Embedded/IIC/iic",
+              "path": "/docs/Embedded/IIC/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Embedded/SPI/spi",
+              "path": "/docs/Embedded/SPI/",
+              "sidebar": "docs"
+            },
+            {
               "id": "FocController/foc_controller",
               "path": "/docs/FocController/foc_controller",
               "sidebar": "docs"
+            },
+            {
+              "id": "FocController/pll",
+              "path": "/docs/FocController/pll"
             },
             {
               "id": "FreeRTOS/List/freertos_list",

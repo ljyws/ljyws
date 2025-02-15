@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-c77": {
+  "/docs-ebb": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-808": {
+  "/docs-e59": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-462": {
+  "/docs-b59": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/-a9d": {
@@ -74,9 +74,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-data-structure-linked-list-066-93f"
   },
+  "/docs/Embedded/IIC/-b42": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-embedded-iic-d-30-6e6"
+  },
+  "/docs/Embedded/SPI/-2e6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-embedded-spi-e-82-be9"
+  },
   "/docs/FocController/foc_controller-8d3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-foc-controller-foc-controllerb-92-4a9"
+  },
+  "/docs/FocController/pll-9d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-foc-controller-pll-9-d-2-65b"
   },
   "/docs/FreeRTOS/List/-3d1": {
     "__comp": "__comp---theme-doc-item-178-a40",

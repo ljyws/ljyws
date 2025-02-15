@@ -1,0 +1,18 @@
+{
+  "id": "FocController/pll",
+  "title": "PLL 锁相环",
+  "description": "简介",
+  "source": "@site/docs/FocController/pll.md",
+  "sourceDirName": "FocController",
+  "slug": "/FocController/pll",
+  "permalink": "/docs/FocController/pll",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "pll",
+    "title": "PLL 锁相环",
+    "sidebar_label": "Phase Locked Loop"
+  }
+}

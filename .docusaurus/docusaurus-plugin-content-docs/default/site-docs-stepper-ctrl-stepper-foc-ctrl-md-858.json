@@ -17,8 +17,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Finite State Machine",
-    "permalink": "/docs/ProgrammingTips/finite-state machine/fsm"
+    "title": "spi",
+    "permalink": "/docs/Embedded/SPI/"
   },
   "next": {
     "title": "Motor Controller",

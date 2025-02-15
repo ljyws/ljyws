@@ -1,0 +1,27 @@
+{
+  "id": "Embedded/SPI/spi",
+  "title": "SPI",
+  "description": "简介",
+  "source": "@site/docs/Embedded/SPI/spi.md",
+  "sourceDirName": "Embedded/SPI",
+  "slug": "/Embedded/SPI/",
+  "permalink": "/docs/Embedded/SPI/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "spi",
+    "title": "SPI",
+    "sidebar_label": "spi"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "iic",
+    "permalink": "/docs/Embedded/IIC/"
+  },
+  "next": {
+    "title": "Simulation",
+    "permalink": "/docs/StepperCtrl/simulation"
+  }
+}
